@@ -1,15 +1,36 @@
 body{
-    background-color: wheat ;
+
     text-align: center;
+    background-color:white;
 }
 h1{
     font-size: 4rem;
 }
 
-#image-div{
-    
+.container{
+    width: 90%;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 100px auto;
+}
+.box{
+    width: 250px;
+    margin:0 10px;
+    box-shadow: 0 0 20px 2px rgba(0,0,.1);
+}
 
+.box img{
+    display: block;
+    width: 100%;
+    border-radius: 30px;
+}
+.box:hover{
+    transform: (1.3);
+    z-index: 2;
+}
+h2{
+    text-align: left;
 }
